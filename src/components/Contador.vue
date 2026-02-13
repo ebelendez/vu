@@ -5,11 +5,9 @@ const contador = ref(0);
 
 <template>
   <h1>Hola Mundo</h1>
-  <br>
   <button @click="contador--" :disabled="contador == 0"> - </button>
   {{ contador }}
   <button @click="contador++"> + </button>
-  <br>
 </template>
 
 <style scoped>
