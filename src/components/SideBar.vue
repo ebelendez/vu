@@ -22,6 +22,8 @@
     <router-link to="/lista-de-tareas">Lista De Tareas</router-link>
     <br>
     <router-link to="/registrar">Registrar</router-link>
+    <br>
+    <router-link to="/calcular">Calcular</router-link>
   </div>
 </template>
 

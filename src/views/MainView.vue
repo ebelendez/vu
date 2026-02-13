@@ -10,8 +10,7 @@
   <div class="container">
     <SideBar></SideBar>
     <div class="content">
-        <input type="text" v-model="texto">
-        {{ texto }}
+        <input type="text" v-model="texto" placeholder="Pasa a hijo: defineProps">
         <router-view></router-view>
     </div>
   </div>

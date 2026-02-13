@@ -2,15 +2,15 @@
   import Weather from './Weather.vue'
   import { defineProps, ref, watch } from 'vue'
   const props = defineProps(['mensaje'])
-  const mensajeRecibido = ref(props.mensaje)
+  /* const mensajeRecibido = ref(props.mensaje)
   watch(() => props.mensaje, (newValue) => {
     mensajeRecibido.value = newValue
-  })
+  }) */
 </script>
 
 <template>
   <div class="header">
-    {{ mensajeRecibido }}<Weather></Weather>
+    {{ props.mensaje }} <Weather></Weather>
   </div>
 </template>
 
